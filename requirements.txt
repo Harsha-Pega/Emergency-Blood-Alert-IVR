@@ -1,0 +1,23 @@
+# 🧠 Core Web Framework
+Flask==2.3.3               # For building the Twilio IVR web app
+
+# 📞 Twilio Integration
+twilio==9.0.1              # To handle incoming calls, recording, and IVR flow
+
+# 🌐 HTTP Requests
+requests==2.31.0           # To download Twilio call recordings (.mp3 files)
+
+# 🎙️ Whisper Transcription
+openai-whisper==20230314   # Whisper model wrapper for transcribing speech
+torch==2.1.2               # Required deep learning backend for Whisper
+ffmpeg-python==0.2.0       # Audio format handling used by Whisper
+
+# 🔐 Environment Variables
+python-dotenv==1.0.1       # To load Twilio and Google credentials from .env
+
+# 📊 Google Sheets Logging
+gspread==5.12.0            # To connect and write rows to Google Sheets
+oauth2client==4.1.3        # Required for Google service account authentication
+
+------------------------------------------------------------------------------------------------------------
+

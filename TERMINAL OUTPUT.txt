@@ -1,0 +1,44 @@
+127.0.0.1 - - [04/Aug/2025 13:12:34] "POST /process_recording?lang=en-IN&step=hospital HTTP/1.1" 200 -
+ * Detected change in 'C:\\Users\\HP\\OneDrive\\Desktop\\AP\\Script_Codes\\python\\Gemini.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 654-682-512
+
+127.0.0.1 - - [04/Aug/2025 13:20:39] "POST /voice HTTP/1.1" 200 -
+127.0.0.1 - - [04/Aug/2025 13:20:52] "POST /language HTTP/1.1" 200 -
+127.0.0.1 - - [04/Aug/2025 13:20:52] "POST /register?lang=en-IN&step=name HTTP/1.1" 200 -
+
+▶️ Converting recordings\CAc6b640940f8c36d019fc36db7615b714_name.mp3 to recordings\CAc6b640940f8c36d019fc36db7615b714_name.wav...
+✅ Conversion successful.
+▶️ Starting transcription for WAV file: recordings\CAc6b640940f8c36d019fc36db7615b714_name.wav with language: en
+C:\Users\HP\OneDrive\Desktop\AP\Script_Codes\python\.venv\Lib\site-packages\whisper\transcribe.py:132: UserWarning: FP16 is not supported on CPU; using FP32 instead
+  warnings.warn("FP16 is not supported on CPU; using FP32 instead")
+
+✅ Transcription successful: 'Sarah Johnson'
+
+127.0.0.1 - - [04/Aug/2025 13:21:05] "POST /process_recording?lang=en-IN&step=name HTTP/1.1" 200 -
+
+127.0.0.1 - - [04/Aug/2025 13:21:07] "POST /register?lang=en-IN&step=phone HTTP/1.1" 200 -
+
+127.0.0.1 - - [04/Aug/2025 13:21:21] "POST /confirm_phone?lang=en-IN HTTP/1.1" 200 -
+
+127.0.0.1 - - [04/Aug/2025 13:21:27] "POST /phone_decision?lang=en-IN&phone=9247918854 HTTP/1.1" 200 -
+
+127.0.0.1 - - [04/Aug/2025 13:21:30] "POST /register?lang=en-IN&step=blood HTTP/1.1" 200 -
+
+127.0.0.1 - - [04/Aug/2025 13:21:49] "POST /blood_choice?lang=en-IN HTTP/1.1" 200 -
+
+127.0.0.1 - - [04/Aug/2025 13:21:50] "POST /register?lang=en-IN&step=hospital HTTP/1.1" 200 -
+
+▶️ Converting recordings\CAc6b640940f8c36d019fc36db7615b714_hospital.mp3 to recordings\CAc6b640940f8c36d019fc36db7615b714_hospital.wav...
+✅ Conversion successful.
+▶️ Starting transcription for WAV file: recordings\CAc6b640940f8c36d019fc36db7615b714_hospital.wav with language: en
+✅ Transcription successful: 'Michigan Hospital.'
+
+📢 Found 2 matched donors for blood group A+.
+
+✅ SMS sent to Rajesh at 9505976282. SID: SM97fdda7ee23b7a455eb36b452313a065
+
+✅ SMS sent to Arjun at 9959114396. SID: SMa62289681c4aa9c51143a2d654c97a0e
+
+127.0.0.1 - - [04/Aug/2025 13:22:05] "POST /process_recording?lang=en-IN&step=hospital HTTP/1.1" 200 -
